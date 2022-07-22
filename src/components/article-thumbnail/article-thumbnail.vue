@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style scoped>
-@import "./css/article-thumbnail.css";
+<style scoped lang="less">
+@import "css/article-thumbnail.less";
 </style>

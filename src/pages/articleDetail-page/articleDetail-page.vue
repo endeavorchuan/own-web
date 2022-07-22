@@ -7,17 +7,22 @@
 -->
 
 <template>
-  <div>
-    文章详情页
+  <div class="articleDetail">
+    <TopNavigation />
   </div>
 </template>
 
 <script>
+import TopNavigation from '@/components/top-navigation/top-navigation.vue'
+
 export default {
-  name: "articleDetail-page"
+  name: "articleDetail-page",
+  components: {
+    TopNavigation
+  }
 }
 </script>
 
-<style scoped>
-@import "./css/article-detail-page.css";
+<style scoped lang="less">
+@import "css/article-detail-page.less";
 </style>

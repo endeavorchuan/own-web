@@ -7,17 +7,22 @@
 -->
 
 <template>
-  <div>
-    检索页面（分类 / 标签）
+  <div class="retieval">
+    <TopNavigation />
   </div>
 </template>
 
 <script>
+import TopNavigation from '@/components/top-navigation/top-navigation.vue'
+
 export default {
-  name: "retrieval-page"
+  name: "retrieval-page",
+  components: {
+    TopNavigation
+  }
 }
 </script>
 
-<style scoped>
-@import "./css/retrieval-page.css";
+<style scoped lang="less">
+@import "css/retrieval-page.less";
 </style>

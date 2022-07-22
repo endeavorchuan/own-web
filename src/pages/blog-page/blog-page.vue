@@ -7,17 +7,22 @@
 -->
 
 <template>
-  <div>
-    博客列表页
+  <div class="blog">
+    <TopNavigation />
   </div>
 </template>
 
 <script>
+import TopNavigation from '@/components/top-navigation/top-navigation.vue'
+
 export default {
-  name: "blog-page"
+  name: "blog-page",
+  components: {
+    TopNavigation
+  }
 }
 </script>
 
-<style scoped>
-@import "./css/blog-page.css";
+<style scoped lang="less">
+@import "css/blog-page.less";
 </style>

@@ -7,17 +7,22 @@
 -->
 
 <template>
-  <div>
-    个人信息页
+  <div class="personal-Info">
+    <TopNavigation />
   </div>
 </template>
 
 <script>
+import TopNavigation from '@/components/top-navigation/top-navigation.vue'
+
 export default {
-  name: "personalInformation-page"
+  name: "personalInformation-page",
+  components: {
+    TopNavigation
+  }
 }
 </script>
 
-<style scoped>
-@import "./css/personalInformation-page.css";
+<style scoped lang="less">
+@import "css/personalInformation-page.less";
 </style>

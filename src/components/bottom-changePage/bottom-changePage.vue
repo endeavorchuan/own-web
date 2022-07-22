@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style scoped>
-@import "./css/bottom-changePage.css";
+<style scoped lang="less">
+@import "css/bottom-changePage.less";
 </style>

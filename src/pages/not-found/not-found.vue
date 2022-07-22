@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style scoped>
-@import "./css/not-found.css";
+<style scoped lang="less">
+@import "css/not-found.less";
 </style>

@@ -7,17 +7,22 @@
 -->
 
 <template>
-  <div>
-    首页
+  <div class="home">
+    <TopNavigation />
   </div>
 </template>
 
 <script>
+import TopNavigation from '@/components/top-navigation/top-navigation.vue'
+
 export default {
-  name: "home-page"
+  name: "home-page",
+  components: {
+    TopNavigation
+  }
 }
 </script>
 
-<style scoped>
-@import "./css/home-page.css";
+<style scoped lang="less">
+@import "css/home-page.less";
 </style>

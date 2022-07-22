@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style scoped>
-@import "./css/retrieval-click-list.css";
+<style scoped lang="less">
+@import "css/retrieval-click-list.less";
 </style>
